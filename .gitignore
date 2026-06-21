@@ -38,6 +38,11 @@ frontend/dist/
 # ML model cache
 .cache/
 models/
+models/
+
+!backend/app/models/
+!backend/app/models/__init__.py
+!backend/app/models/*.py
 
 # Python
 .pytest_cache/
